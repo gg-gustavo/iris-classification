@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.aux
+*.log
+*.out
+missfont.log
