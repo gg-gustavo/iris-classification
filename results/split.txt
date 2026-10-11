@@ -1,0 +1,11 @@
+DIVISÃO TREINO/TESTE (80/20, estratificada, random_state=42)
+------------------------------------------------------------
+Treino: 120 amostras
+Teste : 30 amostras
+
+                 treino  teste
+Iris-setosa          40     10
+Iris-versicolor      40     10
+Iris-virginica       40     10
+
+Proporções mantidas por classe (estratificação): 80% treino / 20% teste em cada categoria.

@@ -1,0 +1,31 @@
+SELEÇÃO DE HIPERPARÂMETROS DO k-NN — GridSearchCV (cv=5, accuracy)
+Pipeline: StandardScaler + KNeighborsClassifier
+----------------------------------------------------------------------
+Melhor k     : 5
+Melhor métrica de distância: euclidean
+Acurácia média de validação cruzada: 0.9667 ± 0.0312
+
+Resultados completos do grid (acurácia média ± desvio em 5 folds):
+ param_knn__n_neighbors param_knn__metric  mean_test_score  std_test_score
+                      1         euclidean           0.9417          0.0425
+                      1         manhattan           0.9333          0.0500
+                      3         euclidean           0.9583          0.0373
+                      3         manhattan           0.9500          0.0312
+                      5         euclidean           0.9667          0.0312
+                      5         manhattan           0.9583          0.0264
+                      7         euclidean           0.9583          0.0373
+                      7         manhattan           0.9583          0.0264
+                      9         euclidean           0.9583          0.0264
+                      9         manhattan           0.9583          0.0264
+                     11         euclidean           0.9583          0.0264
+                     11         manhattan           0.9500          0.0167
+                     13         euclidean           0.9500          0.0408
+                     13         manhattan           0.9500          0.0167
+                     15         euclidean           0.9583          0.0264
+                     15         manhattan           0.9583          0.0264
+                     17         euclidean           0.9583          0.0264
+                     17         manhattan           0.9500          0.0167
+                     19         euclidean           0.9417          0.0204
+                     19         manhattan           0.9583          0.0264
+                     21         euclidean           0.9333          0.0333
+                     21         manhattan           0.9500          0.0312

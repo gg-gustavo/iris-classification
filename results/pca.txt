@@ -1,0 +1,17 @@
+ANÁLISE DE COMPONENTES PRINCIPAIS (PCA) — dados padronizados (z-score)
+----------------------------------------------------------------------
+
+Variância explicada por componente:
+  PC1:  72.77%   (acumulada:  72.77%)
+  PC2:  23.03%   (acumulada:  95.80%)
+  PC3:   3.68%   (acumulada:  99.48%)
+  PC4:   0.52%   (acumulada: 100.00%)
+
+Loadings (componentes_) — peso de cada variável em cada PC:
+  variável                  PC1      PC2      PC3      PC4
+  sepal_length_cm         0.522    0.372    0.721   -0.262
+  sepal_width_cm         -0.263    0.926   -0.242    0.124
+  petal_length_cm         0.581    0.021   -0.141    0.801
+  petal_width_cm          0.566    0.065   -0.634   -0.524
+
+Observação: PC1 e PC2 concentram 95.80% da variância total.

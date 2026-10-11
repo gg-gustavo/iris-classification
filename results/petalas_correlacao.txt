@@ -1,0 +1,18 @@
+CORRELAÇÃO COMPRIMENTO × LARGURA DA PÉTALA
+(regressão linear simples por categoria)
+------------------------------------------------------------
+
+Iris-setosa:
+  r de Pearson      = +0.3063
+  p-valor           = 0.03051
+  equação da reta   : largura = 0.1893·comprimento - 0.0331
+
+Iris-versicolor:
+  r de Pearson      = +0.7867
+  p-valor           = 1.272e-11
+  equação da reta   : largura = 0.3311·comprimento - 0.0843
+
+Iris-virginica:
+  r de Pearson      = +0.3221
+  p-valor           = 0.02254
+  equação da reta   : largura = 0.1603·comprimento + 1.1360
